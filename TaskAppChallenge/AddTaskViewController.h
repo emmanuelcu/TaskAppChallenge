@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface AddTaskViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UITextField *addTaskLabel;
+@property (strong, nonatomic) IBOutlet UITextView *addTaskTextView;
+@property (strong, nonatomic) IBOutlet UIDatePicker *addTaskDatePicker;
+- (IBAction)addTaskButton:(UIButton *)sender;
+- (IBAction)cancelTaskButton:(UIButton *)sender;
 
 @end

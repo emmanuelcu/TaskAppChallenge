@@ -9,6 +9,12 @@
 #ifndef TaskAppChallenge_pch
 #define TaskAppChallenge_pch
 
+#define TASK_TITLE :@"title"
+#define TASK_DESCRIPTION :@"description"
+#define TASK_DATE :@"date"
+#define TASK_COMPLETION :@"completion"
+#define USER_NAME :@"name"
+#define USER_PASSWORD :@"password"
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 

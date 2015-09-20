@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface EditTaskViewController : UIViewController
+- (IBAction)saveEditedTaskButton:(UIBarButtonItem *)sender;
+@property (strong, nonatomic) IBOutlet UITextField *editedTaskLabel;
+@property (strong, nonatomic) IBOutlet UITextView *editedTextView;
+@property (strong, nonatomic) IBOutlet UIDatePicker *editedDatePicker;
 
 @end

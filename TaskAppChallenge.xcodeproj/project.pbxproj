@@ -15,6 +15,10 @@
 		2F23DCD21BAE5C13001CA52D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F23DCD01BAE5C13001CA52D /* LaunchScreen.storyboard */; };
 		2F23DCDD1BAE5C13001CA52D /* TaskAppChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F23DCDC1BAE5C13001CA52D /* TaskAppChallengeTests.m */; };
 		2F23DCE81BAE5C13001CA52D /* TaskAppChallengeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F23DCE71BAE5C13001CA52D /* TaskAppChallengeUITests.m */; };
+		2F23DCF71BAE5EE0001CA52D /* TaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F23DCF61BAE5EE0001CA52D /* TaskViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2F23DCFA1BAE5F18001CA52D /* AddTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F23DCF91BAE5F18001CA52D /* AddTaskViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2F23DCFD1BAE5F30001CA52D /* EditTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F23DCFC1BAE5F30001CA52D /* EditTaskViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2F23DCFF1BAE6468001CA52D /* addtask.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F23DCFE1BAE6468001CA52D /* addtask.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		2F23DCE31BAE5C13001CA52D /* TaskAppChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskAppChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F23DCE71BAE5C13001CA52D /* TaskAppChallengeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskAppChallengeUITests.m; sourceTree = "<group>"; };
 		2F23DCE91BAE5C13001CA52D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F23DCF51BAE5EE0001CA52D /* TaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskViewController.h; sourceTree = "<group>"; };
+		2F23DCF61BAE5EE0001CA52D /* TaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskViewController.m; sourceTree = "<group>"; };
+		2F23DCF81BAE5F18001CA52D /* AddTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTaskViewController.h; sourceTree = "<group>"; };
+		2F23DCF91BAE5F18001CA52D /* AddTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTaskViewController.m; sourceTree = "<group>"; };
+		2F23DCFB1BAE5F30001CA52D /* EditTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditTaskViewController.h; sourceTree = "<group>"; };
+		2F23DCFC1BAE5F30001CA52D /* EditTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditTaskViewController.m; sourceTree = "<group>"; };
+		2F23DCFE1BAE6468001CA52D /* addtask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addtask.png; sourceTree = "<group>"; };
+		2F23DD001BAE6DB5001CA52D /* TaskAppChallenge.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskAppChallenge.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,12 @@
 				2F23DCC81BAE5C13001CA52D /* ViewController.h */,
 				2F23DCC91BAE5C13001CA52D /* ViewController.m */,
 				2F23DCCB1BAE5C13001CA52D /* Main.storyboard */,
+				2F23DCFB1BAE5F30001CA52D /* EditTaskViewController.h */,
+				2F23DCFC1BAE5F30001CA52D /* EditTaskViewController.m */,
+				2F23DCF81BAE5F18001CA52D /* AddTaskViewController.h */,
+				2F23DCF91BAE5F18001CA52D /* AddTaskViewController.m */,
+				2F23DCF51BAE5EE0001CA52D /* TaskViewController.h */,
+				2F23DCF61BAE5EE0001CA52D /* TaskViewController.m */,
 				2F23DCCE1BAE5C13001CA52D /* Assets.xcassets */,
 				2F23DCD01BAE5C13001CA52D /* LaunchScreen.storyboard */,
 				2F23DCD31BAE5C13001CA52D /* Info.plist */,
@@ -117,6 +135,8 @@
 		2F23DCC21BAE5C13001CA52D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2F23DCFE1BAE6468001CA52D /* addtask.png */,
+				2F23DD001BAE6DB5001CA52D /* TaskAppChallenge.pch */,
 				2F23DCC31BAE5C13001CA52D /* main.m */,
 			);
 			name = "Supporting Files";
@@ -245,6 +265,7 @@
 			files = (
 				2F23DCD21BAE5C13001CA52D /* LaunchScreen.storyboard in Resources */,
 				2F23DCCF1BAE5C13001CA52D /* Assets.xcassets in Resources */,
+				2F23DCFF1BAE6468001CA52D /* addtask.png in Resources */,
 				2F23DCCD1BAE5C13001CA52D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,7 +291,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F23DCFA1BAE5F18001CA52D /* AddTaskViewController.m in Sources */,
 				2F23DCCA1BAE5C13001CA52D /* ViewController.m in Sources */,
+				2F23DCF71BAE5EE0001CA52D /* TaskViewController.m in Sources */,
+				2F23DCFD1BAE5F30001CA52D /* EditTaskViewController.m in Sources */,
 				2F23DCC71BAE5C13001CA52D /* AppDelegate.m in Sources */,
 				2F23DCC41BAE5C13001CA52D /* main.m in Sources */,
 			);
@@ -411,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = TaskAppChallenge/TaskAppChallenge.pch;
 				INFOPLIST_FILE = TaskAppChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IBM.TaskAppChallenge;
@@ -422,6 +447,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = TaskAppChallenge/TaskAppChallenge.pch;
 				INFOPLIST_FILE = TaskAppChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IBM.TaskAppChallenge;

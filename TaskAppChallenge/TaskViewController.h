@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface TaskViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *infoTaskLabel;
+@property (strong, nonatomic) IBOutlet UILabel *info1TaskLabel;
+@property (strong, nonatomic) IBOutlet UILabel *info2TaskLabel;
 
 @end

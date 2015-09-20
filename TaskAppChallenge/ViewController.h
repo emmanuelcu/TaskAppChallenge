@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)reorderTaskButton:(UIBarButtonItem *)sender;
+- (IBAction)addTaskButtonVC:(UIBarButtonItem *)sender;
+@property (strong, nonatomic) IBOutlet UITableView *showTasksTableView;
 
 @end
 
