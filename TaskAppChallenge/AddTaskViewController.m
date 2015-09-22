@@ -34,9 +34,30 @@
 }
 */
 
+//First it has to be created a method to make a task before implemente the method didAddTask to the button action
+
+-(Task *) returnNewTask{
+    
+    Task *taskObject = [[Task alloc] init];
+    
+    taskObject.title = self.addTaskLabel.text;
+    taskObject.taskdescription = self.addTaskTextView.text;
+    taskObject.date = self.addTaskDatePicker.date;
+    taskObject.isCompleted = NO;
+    
+    return taskObject;
+    
+
+}
+
 - (IBAction)addTaskButton:(UIButton *)sender {
+    
+    [self.delegate didAddTask:[self  returnNewTask]];
 }
 
 - (IBAction)cancelTaskButton:(UIButton *)sender {
+  
+    [self.delegate didCancel];
+    
 }
 @end
