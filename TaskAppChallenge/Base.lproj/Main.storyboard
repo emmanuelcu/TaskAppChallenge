@@ -85,19 +85,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="paN-Yi-tJu">
-                                <rect key="frame" x="57" y="75" width="260" height="30"/>
+                                <rect key="frame" x="57" y="155" width="260" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1WG-QD-K5n">
-                                <rect key="frame" x="295" y="585" width="50" height="50"/>
+                                <rect key="frame" x="295" y="40" width="50" height="50"/>
                                 <state key="normal" image="addtask.png"/>
                                 <connections>
                                     <action selector="addTaskButton:" destination="g77-3g-4yD" eventType="touchUpInside" id="soR-CU-FBO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M9B-bS-Gbn">
-                                <rect key="frame" x="57" y="585" width="115" height="50"/>
+                                <rect key="frame" x="57" y="40" width="115" height="50"/>
                                 <color key="backgroundColor" red="0.92941176469999998" green="0.1215686275" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Cancel">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -107,13 +107,13 @@
                                 </connections>
                             </button>
                             <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="s60-uN-3oM">
-                                <rect key="frame" x="31" y="306" width="314" height="107"/>
+                                <rect key="frame" x="31" y="386" width="314" height="107"/>
                                 <date key="date" timeIntervalSinceReferenceDate="464413398.87147599">
                                     <!--2015-09-20 03:43:18 +0000-->
                                 </date>
                             </datePicker>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9eR-II-L05">
-                                <rect key="frame" x="31" y="129" width="314" height="151"/>
+                                <rect key="frame" x="31" y="209" width="314" height="151"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>

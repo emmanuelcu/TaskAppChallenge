@@ -7,12 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AddTaskViewController.h"
+#import "Task.h"
 
-@interface ViewController : UIViewController
+
+@interface ViewController : UIViewController < AddTaskViewControllerDelegate, UITableViewDataSource, UITextFieldDelegate>
 
 - (IBAction)reorderTaskButton:(UIBarButtonItem *)sender;
 - (IBAction)addTaskButtonVC:(UIBarButtonItem *)sender;
 @property (strong, nonatomic) IBOutlet UITableView *showTasksTableView;
+@property (strong, nonatomic) NSMutableArray *taskObjects;
 
 @end
 
