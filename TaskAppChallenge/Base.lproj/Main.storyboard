@@ -63,7 +63,7 @@
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="showTasksTableView" destination="3oE-DX-Sqa" id="h2A-86-k1s"/>
+                        <outlet property="tableView" destination="3oE-DX-Sqa" id="l2g-8U-DH8"/>
                         <segue destination="g77-3g-4yD" kind="modal" identifier="toAddTaskViewController" id="YFr-gR-AKD"/>
                         <segue destination="wOg-OZ-HAk" kind="push" identifier="toTaskViewController" id="Ruh-2v-iqa"/>
                     </connections>
@@ -171,7 +171,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="e7q-dJ-2JJ">
-                        <barButtonItem key="rightBarButtonItem" title="Edit" id="kYs-mY-vsd"/>
+                        <barButtonItem key="rightBarButtonItem" title="Edit" id="kYs-mY-vsd">
+                            <connections>
+                                <action selector="editTask:" destination="wOg-OZ-HAk" id="jkg-kB-sC6"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>

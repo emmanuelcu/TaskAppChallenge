@@ -7,10 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Task.h"
+#import "EditTaskViewController.h"
 
-@interface TaskViewController : UIViewController
+@protocol TaskViewControllerDelegate <NSObject>
+
+-(void)updateTask;
+
+@end
+
+@interface TaskViewController : UIViewController <EditTaskViewControllerDelegate>
+@property (weak,nonatomic) id <TaskViewControllerDelegate> delegate;
+@property (strong,nonatomic) Task *task;
 @property (strong, nonatomic) IBOutlet UILabel *infoTaskLabel;
 @property (strong, nonatomic) IBOutlet UILabel *info1TaskLabel;
 @property (strong, nonatomic) IBOutlet UILabel *info2TaskLabel;
+- (IBAction)editTask:(UIBarButtonItem *)sender;
 
 @end
